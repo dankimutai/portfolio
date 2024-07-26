@@ -40,15 +40,33 @@ body {
 }
 
 #headers {
-  /* background-color: black; */
+
+  background-color: black;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2rem auto auto;
+  grid-column: 2/3;
+  grid-gap: 1rem;
 }
-#headers img{
-    width: 80%;
-    height: 80%;
+#header {
+  grid-column: 1 / -1;
+  grid-row: 1/2;
+  align-items: center;
+  justify-content: center;
+}
+#headers img {
+  width: 80%;
+  height: 80%;
+  grid-row: 2/3;
+  grid-column: 2/3;
 }
 
-.header {
+#headers p {
+  grid-column: 1/2;
+  grid-row: 2/3;
+color:;
+  margin: 0;
+  padding: 10px;
+  border: 2px #402E7A solid;
+  background-color:  #240750;
 }
