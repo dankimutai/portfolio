@@ -1,16 +1,18 @@
 * {
-  margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
-body {
-  background-color: black;
+body {background-image: url(pic/StockCake-Laptop\ Amidst\ Greenery_1722004912.jpg);
+background-size:cover ;
+background-repeat: no-repeat;
 }
+
+
 .menu {
   color: #45ffca;
   position: absolute;
   left: 0;
-  margin-left: 2rem;
+  margin-left: 0.8rem;
 }
 
 .navigation1 {
@@ -24,8 +26,8 @@ body {
   border-radius: 7px;
   margin-top: 1rem;
   align-items: center;
-  overflow: hidden;
-  flex-wrap: nowrap;
+ 
+  margin-top: 2rem;
 }
 .navigation1 a {
   color: #45ffca;
@@ -40,7 +42,7 @@ body {
 }
 
 #headers {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.863);
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2rem auto auto;
@@ -48,6 +50,8 @@ body {
   grid-gap: 1rem;
   padding: 3rem;
   margin-top: 3rem;
+  border-radius: 10px;
+  
 }
 #headers img {
   width: 80%;
@@ -61,11 +65,13 @@ body {
   color: ;
   margin: 0;
   padding: 10px;
-  border: 2px #402e7a solid;
-  background-color: #240750;
+  color: white;
+  font-weight: ;
+  letter-spacing: 2px;
+  word-spacing: 3px;
 }
 #header {
-    color: rgb(253, 4, 54);
+  color: rgb(253, 4, 54);
   grid-column: 1 / -1;
   grid-row: 1/2;
   align-items: center;
@@ -73,6 +79,6 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
 }
-.span{
-    color:  #00FFFB;
+.span {
+  color: #00fffb;
 }
