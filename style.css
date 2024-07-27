@@ -1,19 +1,11 @@
 * {
   padding: 0;
-  margin: 0; /* Added to ensure no default margins */
   font-family: sans-serif;
-  box-sizing: border-box; /* Added for better layout consistency */
 }
-
 body {
   background-image: url(pic/StockCake-Laptop\ Amidst\ Greenery_1722004912.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; /* Keeps the background fixed */
-  min-height: 100vh; /* Full viewport height */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* Distribute sections */
 }
 
 .menu {
@@ -32,16 +24,16 @@ body {
   margin: 0 auto;
   width: 70%;
   border-radius: 7px;
-  margin-top: 2rem;
+  margin-top: 1rem;
   align-items: center;
-}
 
+  margin-top: 2rem;
+}
 .navigation1 a {
   color: #45ffca;
   text-decoration: none;
   display: inline-flex;
 }
-
 .navigation1 li {
   list-style: none;
   display: inline-flex;
@@ -60,24 +52,23 @@ body {
   margin-top: 3rem;
   border-radius: 10px;
 }
-
 #headers img {
   width: 80%;
   height: 80%;
   grid-row: 2/3;
   grid-column: 2/3;
 }
-
 #headers p {
   grid-column: 1/2;
   grid-row: 2/3;
+  color: ;
   margin: 0;
   padding: 10px;
   color: white;
+  font-weight: ;
   letter-spacing: 2px;
   word-spacing: 3px;
 }
-
 #header {
   color: rgb(253, 4, 54);
   grid-column: 1 / -1;
@@ -87,64 +78,44 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
 }
-
 .span {
   color: #00fffb;
 }
 
 #my-expirience {
   height: 70vh;
-  flex-shrink: 0; /* Prevents the section from shrinking */
 }
-
 #contact-me {
-  background-color: #fff;
-  display: flex;
-  flex-direction: column; /* Ensures content stacks vertically */
-  justify-content: center; /* Center content vertically */
-  align-items: center; /* Center content horizontally */
-  padding: 1rem;
-  flex-grow: 1; /* Allows it to expand to fill space */
-  width: 100%;
-  box-sizing: border-box;
 }
-
 .wrap {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  box-sizing: border-box;
 }
-
 .wrap a {
   text-decoration: none;
   font-size: 2.5rem;
 }
-
 .icon {
   width: 3rem;
   height: 3rem;
   justify-content: center;
   display: flex;
-  align-items: center; /* Center icons vertically */
+  align-items: center;
+
   overflow: hidden;
   border-radius: 5px;
   margin: 0.7rem;
-  transition: transform 0.3s ease;
 }
-
-.icon:hover {
-  transform: scale(1.2); /* Ensures proper hover scaling */
+.icon :hover {
+  scale: 1.2;
 }
-
-.fa-brands {
+.fa-brands{
   background-color: #fff;
   border-radius: 3px;
 }
-
 .fa-instagram {
-  color: #E1306C;
+  color: #E1306C;;
 }
 
 .fa-instagram:hover {
@@ -178,7 +149,4 @@ body {
   color: #181717;
   background-color: #fff;
 }
-
-.fa-google {
-  color: #DB4437;
-}
+fa-google
