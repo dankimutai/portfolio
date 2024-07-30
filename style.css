@@ -149,4 +149,18 @@ body {
   color: #181717;
   background-color: #fff;
 }
-fa-google
+.about{
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  grid-gap: 3rem;
+}
+
+#contact-me{
+  grid-row: 1/-1;
+  grid-column: 1/1;
+  background-color: #25d366;
+}
+
+#my-expirience{
+  grid-column: 2/3;
+}
