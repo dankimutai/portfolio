@@ -1,6 +1,7 @@
 * {
   padding: 0;
   font-family: sans-serif;
+  
 }
 body {
   background-image: url(pic/StockCake-Laptop\ Amidst\ Greenery_1722004912.jpg);
@@ -89,7 +90,7 @@ body {
 }
 .wrap {
   display: flex;
-  justify-content: center;
+
   align-items: center;
 }
 .wrap a {
@@ -99,27 +100,27 @@ body {
 .icon {
   width: 1rem;
   height: 1rem;
-  justify-content: center;
+
   display: flex;
   align-items: center;
 
   overflow: hidden;
   border-radius: 5px;
-  margin: 0.7rem;
+  margin: 0.4rem;
 }
 .icon :hover {
   scale: 1.2;
 }
-.fa-brands{
+.fa-brands {
   background-color: #fff;
   border-radius: 3px;
 }
 .fa-instagram {
-  color: #E1306C;;
+  color: #e1306c;
 }
 
 .fa-instagram:hover {
-  color: #E1306C;
+  color: #e1306c;
   background-color: #fff;
 }
 
@@ -149,18 +150,21 @@ body {
   color: #181717;
   background-color: #fff;
 }
-.about{
+.about {
   display: grid;
   grid-template-columns: 15rem 1fr;
   grid-gap: 3rem;
 }
 
-#contact-me{
+#contact-me {
+  margin-top: 2rem;
   grid-row: 1/-1;
   grid-column: 1/1;
-  background-color: #25d366;
-}
+  background-color: #201E43;
+  padding: 1rem;
+  color: #00fffb;
+}                 
 
-#my-expirience{
+#my-expirience {
   grid-column: 2/3;
 }
