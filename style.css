@@ -160,9 +160,10 @@ body {
   margin-top: 2rem;
   grid-row: 1/-1;
   grid-column: 1/1;
-  background-color: #201E43;
+  background-color: #2d2b44;
   padding: 1rem;
   color: #00fffb;
+  border-radius: 5px;
 }                 
 
 #my-expirience {
