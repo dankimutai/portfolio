@@ -1,7 +1,6 @@
 * {
   padding: 0;
   font-family: sans-serif;
-  
 }
 body {
   background-image: url(pic/StockCake-Laptop\ Amidst\ Greenery_1722004912.jpg);
@@ -164,47 +163,78 @@ body {
   padding: 1rem;
   color: #00fffb;
   border-radius: 5px;
-}                 
+}
 
 #my-expirience {
   grid-column: 2/3;
 }
 .icon {
-    background-color: #1e1e1e; /* Slightly lighter dark */
-    border-radius: 12px;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #1e1e1e; /* Slightly lighter dark */
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .icon:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .icon i {
-    font-size: 48px; /* Icon size */
-    color: #ffffff;
+  font-size: 2rem; /* Icon size */
+  color: #ffffff;
 }
 
 /* Specific colors for each icon for better differentiation */
-.icon .fa-html5 { color: #e34f26; }
-.icon .fa-css3-alt { color: #1572b6; }
-.icon .fa-js { color: #f7df1e; }
-.icon .fa-node-js { color: #339933; }
-.icon .fa-react { color: #61dafb; }
-.icon .fa-sass { color: #cc6699; }
-.icon .fa-figma { color: #f24e1e; }
-.icon .fa-angular { color: #dd1b16; }
-.icon .fa-vuejs { color: #4fc08d; }
-.icon .fa-python { color: #3776ab; }
+.icon .fa-html5 {
+  color: #e34f26;
+}
+.icon .fa-css3-alt {
+  color: #1572b6;
+}
+.icon .fa-js {
+  color: #f7df1e;
+}
+.icon .fa-node-js {
+  color: #339933;
+}
+.icon .fa-react {
+  color: #61dafb;
+}
+.icon .fa-sass {
+  color: #cc6699;
+}
+.icon .fa-figma {
+  color: #f24e1e;
+}
+.icon .fa-angular {
+  color: #dd1b16;
+}
+.icon .fa-vuejs {
+  color: #c7fee5;
+}
+.icon .fa-python {
+  color: #3776ab;
+}
 
-
-.skills-container{
+.skills-container {
   display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns:repeat(auto-fit,minmax(3,1fr)) ;
+  
+
+  h2 {
+    grid-row: 1/-1;
+
+  }
+  .icons-row {
+
+    height: 58vh;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
+  }
 }
