@@ -186,9 +186,12 @@ body {
 
 .icon i {
   font-size: 2rem; /* Icon size */
+  color: #ffffff00;
+}
+.icon1 i {
+  font-size: 2rem; /* Icon size */
   color: #ffffff;
 }
-
 /* Specific colors for each icon for better differentiation */
 .icon .fa-html5 {
   color: #e34f26;
@@ -224,17 +227,16 @@ body {
 .skills-container {
   display: grid;
   grid-template-rows: 1fr 1fr;
-  
 
   h2 {
     grid-row: 1/-1;
-
   }
   .icons-row {
-
     height: 58vh;
-    background-color: #fff;
+    background-color: #0fa4afb7;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
+    grid-gap: 1.5rem;
+    padding: 1.8rem;
   }
 }
