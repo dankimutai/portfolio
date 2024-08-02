@@ -61,11 +61,11 @@ body {
 #headers p {
   grid-column: 1/2;
   grid-row: 2/3;
-  color: ;
+
   margin: 0;
   padding: 10px;
   color: white;
-  font-weight: ;
+
   letter-spacing: 2px;
   word-spacing: 3px;
 }
@@ -168,7 +168,7 @@ body {
 #my-expirience {
   grid-column: 2/3;
 }
- .icon1 {
+.icon1 {
   background-color: #1e1e1e; /* Slightly lighter dark */
   border-radius: 12px;
   padding: 15px;
@@ -227,17 +227,27 @@ body {
 .skills-container {
   display: grid;
   grid-template-rows: 1fr 1fr;
-
-  h2 {
-    grid-row: 1/-1;
-  }
+  max-width: 800px;
+  margin: 0 auto;
+}
+h2 {
+  grid-row: 1/-1;
+}
+.icons-row {
+  height: 49vh;
+  background-color: #0fa4afb7;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  grid-gap: 1.5rem;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+@media (max-width: 700px) {
   .icons-row {
-    height: 58vh;
-    background-color: #0fa4afb7;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
-    grid-gap: 1.5rem;
-    padding: 1.8rem;
-    border-radius: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+  }
+
+  .icon i {
+    font-size: 20px;
   }
 }
