@@ -156,7 +156,7 @@ body {
 }
 
 #contact-me {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   grid-row: 1/-1;
   grid-column: 1/1;
   background-color: #2d2b44;
@@ -168,7 +168,7 @@ body {
 #my-expirience {
   grid-column: 2/3;
 }
-.icon1 {
+ .icon1 {
   background-color: #1e1e1e; /* Slightly lighter dark */
   border-radius: 12px;
   padding: 15px;
@@ -184,7 +184,7 @@ body {
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-.icon i {
+.icon1 i {
   font-size: 2rem; /* Icon size */
   color: #ffffff00;
 }
