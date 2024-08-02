@@ -168,7 +168,7 @@ body {
 #my-expirience {
   grid-column: 2/3;
 }
-.icon {
+.icon1 {
   background-color: #1e1e1e; /* Slightly lighter dark */
   border-radius: 12px;
   padding: 15px;
@@ -238,5 +238,6 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
     grid-gap: 1.5rem;
     padding: 1.8rem;
+    border-radius: 5px;
   }
 }
