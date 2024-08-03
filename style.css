@@ -88,9 +88,10 @@ body {
 #contact-me {
 }
 .wrap {
-  display: flex;
-
+  display: grid;
+  grid-template-columns: repeat(2,4rem);
   align-items: center;
+  
 }
 .wrap a {
   text-decoration: none;
@@ -238,6 +239,7 @@ h2 {
   background-color: #0fa4afb7;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  grid-template-rows: repeat(auto-fit,5rem);
   grid-gap: 1.5rem;
   padding: 20px 0;
   border-radius: 5px;
