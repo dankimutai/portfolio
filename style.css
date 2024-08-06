@@ -246,7 +246,7 @@ h2 {
 }
 @media (max-width: 700px) {
   .icons-row {
-    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
   }
 
   .icon i {
