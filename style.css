@@ -89,9 +89,8 @@ body {
 }
 .wrap {
   display: grid;
-  grid-template-columns: repeat(2,4rem);
+  grid-template-columns: repeat(2, 4rem);
   align-items: center;
-  
 }
 .wrap a {
   text-decoration: none;
@@ -239,7 +238,7 @@ h2 {
   background-color: #0fa4afb7;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-  grid-template-rows: repeat(auto-fit,5rem);
+  grid-template-rows: repeat(auto-fit, 5rem);
   grid-gap: 1.5rem;
   padding: 20px 0;
   border-radius: 5px;
@@ -253,8 +252,13 @@ h2 {
     font-size: 20px;
   }
 }
-@media (max-width:320){
-  *{
+@media (max-width: 320) {
+  * {
     background-color: red;
+  }
+
+  .image img {
+    width: 10rem;
+    height: 10rem;
   }
 }
